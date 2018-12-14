@@ -1,0 +1,75 @@
+#review-id {
+	height:auto;
+	margin-left: 39%;
+	margin-top: 25px;
+	position: absolute;
+  }
+
+.container {
+	position: relative;
+	max-width: 600px;
+	height: auto;
+	border-top-style: solid;
+	margin: 50px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #fcfcfc;
+	z-index: 150;
+	border-top-color: #f22e2e;
+	border-top-width: 4px;
+	box-shadow: 0px 2px 2px 2px #ccc7c1;
+}
+
+.pointer-line {
+	content: '';
+}
+.pointer-line:after{
+    content: "";
+    position: absolute;
+    top: -34px;
+    left: 51%;
+    margin-left: -46%;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #00000000 #00000000 #f22e2e #00000000;
+   }
+/*...............................  Made live .............. */
+
+#madeLive-id {
+	height:auto;
+	margin-left: 57%;
+	margin-top: 25px;
+	position: absolute;
+  }
+
+.madeLive-container {
+    position: relative;
+    max-width: 500px;
+    height: auto;
+    border-top-style: solid;
+    margin: 50px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fcfcfc;
+    z-index: 150;
+    border-top-color: #f22e2e;
+    border-top-width: 4px;
+    box-shadow: 0px 2px 2px 2px #ccc7c1;
+   }
+
+.madeLive-pointer-line {
+	content: '';
+}
+.madeLive-pointer-line:after {
+    content: "";
+    position: absolute;
+    top: -34px;
+    left: 51%;
+    margin-left: -46%;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #00000000 #00000000 #f22e2e #00000000;
+   }
+
+
+

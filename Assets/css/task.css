@@ -1,0 +1,251 @@
+
+body {
+	position: relative;
+	background-color: #eaf2f7;
+	font-family: 'Lato', sans-serif;    
+}
+
+.header {
+	background-color: white;
+	box-shadow: 0px 2px #c7d2db;
+	padding-top: .5%;	
+}
+
+#leftEle {
+	float: left;
+}
+
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+    display: inline-flex;
+    border: 1px solid Royalblue;
+    margin-top: 5%;
+}
+    
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 12px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border:none;
+    zoom: .9;
+}
+
+.glyphicon{
+	color:#349cef;
+}
+
+#centerEle:hover{
+	cursor: pointer;
+}
+.right-btns{
+	float:right;
+	padding-top: .9%
+}
+
+#rightEle{
+	float:right;
+}
+
+#formID{
+	display: none;
+}
+
+.blue_box_shadow_left{	
+	box-shadow: 0px 2px inset #349cef;
+	padding-top: 10px;
+	padding-left:20px;
+    color: #349cef;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blue_box_shadow_left + .panel-body{
+	height:2881px;
+}
+
+.blue_box_shadow{
+	box-shadow: 0px 2px inset #349cef;
+	color:#349cef;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-left: 20px;
+	padding-top: 17px;	
+}
+
+/*............... Datatable ....... */
+input[type="search"],select{
+	border-radius:5px;
+	border:2px solid #b4d9ed;
+	padding:5px;
+	}
+	input[type="search"]:focus, select:focus{
+	border-radius:5px;
+	border:2px solid #417cf4;
+	padding:5px;
+	}	
+/*...........................   Save Button */
+#Btn{
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color: #349cef;
+	color:white;
+	padding:3px 60px;
+	border:none;
+	font-size: 18px; 	
+}
+
+#Btn:hover{
+	cursor: pointer;
+	background-color:#0e8aec;
+}
+
+/*...............        tooltip    ..........*/
+.tooltips {
+    position: relative;
+    display: inline-block;
+    margin-left: 21%;
+    
+}
+
+.tooltips .tooltiptext {
+    visibility: hidden;
+    width: 125px;
+    background-color: #32cfff;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    padding: 2px 0px;
+    position: absolute;
+    top: 58%;
+    left: 46%;
+    margin-left: -65px;
+}
+
+.tooltips .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #32cfff transparent;
+}
+
+.tooltips:hover .tooltiptext {
+    visibility: visible;  
+}
+
+/*.............................. server Message of CKEditor first section ...*/
+#serverMessage{
+	font-size: 15px;
+}
+
+/*.......................... headings of section....*/
+.form-group{
+	padding-top: 10px;
+}
+.form-control{
+	margin-top: 5px;
+}
+/*....................   navbar  .......*/
+#elem{
+	margin-left: 26%;
+	background-color: #e8edec; 	
+}
+#elementsNav{
+	float: right;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	float: right;
+  
+}
+#elem {
+	z-index:1;
+}
+
+#outer {
+	float: left;
+	width: 931px;
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+ #left-button {
+	float: left;
+	width: 25px;
+	text-align: center;
+	color:blue;
+	background-color: white;
+	border-radius: 50%;
+	font-weight: bold;
+ }
+ 
+ #left-button:hover {
+ 	cursor: pointer;
+ }
+
+ #right-button {
+	float: left;
+	width: 25px;
+	text-align: center;
+	color:blue;
+	background-color: white;
+	border-radius: 50%;
+	font-weight: bold;
+ }
+ 
+ #right-button:hover {
+ 	cursor: pointer;
+ }
+ 
+ #inner:first-child {
+	margin-left: 0;
+ }
+
+ .section {
+	margin-left: 18px;
+	text-decoration: none;
+	font-weight: bolder;
+	color:#349cef;
+ }
+
+ .hide {
+	display: none;
+ }
+ 
+/*......................... Progress button .........*/
+.proBtns {
+    border-radius: 3px;
+    border: none;
+    padding: 5px 9px;
+    font-size: medium;
+    font-weight: 600;
+    color: dimgray;
+    background-color: #e0e1e2;
+}
+/*...........................  Progress level  ....
+#level4 {
+	white-space: nowrap; 
+	width: 50px; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
+}*/
+/*....................... Review Box message....*/
+.in-box{
+    border: 1px solid #326f9e;
+    padding: 0px 2px;
+    background-color: #326f9e;
+    margin: 2px;
+    color: white;
+}
+#in-box-r{
+	border: 1px solid #39c627;
+	background-color:#39c627;
+}
